@@ -1,0 +1,9 @@
+public/
+├─ images/
+├─ icons/
+├─ templates/
+docs/
+src/
+├─ ports/
+├─ core/
+├─ adapters/
