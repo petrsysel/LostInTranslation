@@ -17,6 +17,7 @@
         "vite": "^5.0.8"
     },
     "dependencies": {
-        "easybox": "git://github.com/petrsysel/easybox.git#v0.1.4"
+        "easybox": "git://github.com/petrsysel/easybox.git#v0.1.4",
+        "google-translate-api-browser": "4.0.0"
     }
 }

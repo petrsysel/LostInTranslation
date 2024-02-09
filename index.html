@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="/src/main.ts"></script>
-    <title>Template</title>
+    <title>Lost In Translation</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="layout-container">
+        <div class="text" class="textarea-container">
+            <textarea spellcheck="false" name="original-text" id="original-text" class="input-text"></textarea>
+        </div>
+        <div id="control-panel" class="panel">
+            <div class="stage">Čeština</div>
+            <div id="stages">
+
+            </div>
+            <div class="stage">
+                <select id="new-stage-select"></select>
+                <button id="new-stage-add-button">Přidat</button>
+            </div>
+            <div class="stage">Čeština</div>
+            <div class="button-container">
+                <button id="translate-button">Přeložit</button>
+            </div>
+            
+        </div>
+        <div class="text">
+            <p class="target-text" id="output-placeholder">
+
+            </p>
+        </div>
+    </div>
 </body>
 </html>
